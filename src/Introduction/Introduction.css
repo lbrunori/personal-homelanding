@@ -1,0 +1,37 @@
+@import url("../App.css");
+
+.Introduction {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+  overflow: auto;
+  background-color: var(--white-color);
+}
+
+.Introduction .greeting {
+  font-size: 42px;
+}
+
+.Introduction .name {
+  font-size: 120px;
+  font-weight: bold;
+}
+
+.Introduction .position {
+  font-size: 42px;
+}
+
+.Introduction .java-logo-container {
+  display: flex;
+  justify-content: center;
+}
+
+.Introduction .java-logo {
+  display: flex;
+  margin-top: 3vh;
+  padding: 30px;
+  background-color: var(--orange-color);
+  border-radius: 100%;
+}

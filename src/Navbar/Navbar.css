@@ -1,0 +1,32 @@
+@import url("../App.css");
+
+.Navbar {
+  background-color: var(--white-color);
+  height: auto;
+  width: 96vw;
+  padding: 4vh 2vw;
+  position: fixed;
+}
+
+.Navbar .Header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Navbar .navigation {
+  width: 33%;
+}
+
+.Navbar .name {
+  width: 33%;
+  text-align: center;
+}
+
+.Navbar .language {
+  width: 33%;
+  text-align: end;
+}
+
+.Navbar .navigation span {
+  padding: 0 1vw 0 0;
+}
