@@ -1,10 +1,3 @@
-import React from 'react';
+# personal-homelanding
 
-const footer = () => {
-    return (
-        <footer>
-        </footer>
-    );
-}
-
-export default footer;
+Portfolio page
